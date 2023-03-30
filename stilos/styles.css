@@ -1,0 +1,97 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to bottom, #000000, #0076ad);
+}
+
+h1 {
+	font-size: 2.5rem;
+	text-align: center;
+	margin-top: 2rem;
+	color: rgb(255, 255, 255);
+}
+
+h2 {
+	font-size: 1.8rem;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	margin-top: 1rem;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+li {
+	margin: 0 1rem;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #666;
+}
+
+/* Estilos para la navegación */
+nav {
+	background-color: #f2f2f2;
+	padding: 1rem;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+/* Estilos para las secciones */
+section {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2rem;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.2);
+	background-color: #fff;
+	margin-top: 2rem;
+	border-radius: 10px;
+}
+footer {
+	background-color: #4f5961;
+	color: #ffffff;
+	padding: 1rem;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+nav a {
+	color: #333;
+	text-decoration: none;
+	padding: 1rem;
+	border-radius: 5px;
+  }
+  
+  nav a:hover {
+	background-color: #333;
+	color: #fff;
+  }
+div{
+	justify-content: center;
+	display: flex;
+}
+*{
+	font-family: 'Bona Nova', serif;
+}
+lottie-player{
+	margin-left: 70%;
+}

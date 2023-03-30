@@ -1,0 +1,111 @@
+div{
+    justify-content: center;
+    display: flex;
+}
+body{
+    background-color: rgb(0, 83, 139);
+}
+nav a {
+	color: #333;
+	text-decoration: none;
+	padding: 1rem;
+	border-radius: 5px;
+  }
+  
+  nav a:hover {
+	background-color: #333;
+	color: #fff;
+  }
+  nav {
+	background-color: #b1d9fa;
+	padding: 1rem;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+a:hover {
+	color: #666;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+li {
+	margin: 0 1rem;
+}
+
+  footer {
+	background-color: #38688f;
+	color: #ffffff;
+	padding: 1rem;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 14px;
+	text-align: center;
+	background-color: white;
+	padding: 8cm;
+  }
+  
+  th {
+	background-color: #3697a8b0;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 2cm;
+  }
+  
+  td {
+	border: 1px solid #3697a8b0;
+	color: #333333;
+	padding: 10px;
+	text-align: center;
+	border-radius: 2cm;
+  }
+  
+  tbody tr:nth-child(even) {
+	background-color: #cdf3ff;
+  }
+  
+  button {
+	background-color: #333333;
+	border: none;
+	color: #ffffff;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+  }
+  
+  button:hover {
+	background-color: #ffffff;
+	color: #333333;
+	cursor: pointer;
+  }
+  section {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2rem;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.2);
+	background-color: #fff;
+	margin-top: 2rem;
+	border-radius: 10px;
+	text-align: center;
+	width: 300px;
+}
+*{
+	font-family: 'Bona Nova', serif;
+}
+
+
